@@ -1,0 +1,62 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-box {
+    margin-top: 4rem;
+    width: 30%;
+    border-radius: 1rem;
+    padding: 2rem;
+    /* background-color: var(--clr-primary);
+    color: var(--clr-accent-100); */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.47);
+    border-radius: 16px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-box{
+    margin-bottom: 1.5rem;
+}
+
+.input-box > input {
+    display: block;
+    padding: .6rem;
+    width: 24.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(159, 157, 157);
+    font-size: var(--fs-400);
+    outline: none;
+    border-radius: 1rem;
+}
+
+/* input[type="file"]{
+    display: none;
+} */
+
+.submit-btn {
+    width: 100%;
+    padding: .8rem 2.5rem;
+    background-color: var(--clr-primary);
+    border-radius: 2rem;
+    font-size: var(--fs-400);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register-heading {
+    margin-bottom: 1rem;
+    font-size: var(--fs-800);
+    font-weight: var(--fw-bold);
+    text-align: center;
+    stroke: white;
+    color: var(--clr-primary);
+}
+.error{
+    color: red;
+}
